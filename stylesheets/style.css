@@ -84,6 +84,10 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  .section {
+    padding: 0 20px;
+  }
+  
   .service {
     width: 50%;
   }
