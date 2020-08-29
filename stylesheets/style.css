@@ -57,6 +57,10 @@ body {
   justify-content: center;
 }
 
+.service {
+  width: 20%;
+}
+
 .company {
   width: 640px;
   margin: 40px auto 0;
@@ -77,4 +81,13 @@ body {
 .company-td {
   flex: 1;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .service {
+    width: 50%;
+  }
+  .company {
+    width: 100%;
+  }
 }
