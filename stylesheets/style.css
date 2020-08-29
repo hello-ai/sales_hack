@@ -1,0 +1,80 @@
+body {
+  padding-bottom: 80px;
+}
+
+.cover {
+  position: relative;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 20px;
+  word-wrap: break-word;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/cover.jpg');
+}
+
+.cover-overlay {
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cover-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cover-title {
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  line-height: 1;
+  font-size: 64px;
+  text-align: center;
+}
+
+.section {
+  margin-top: 80px;
+}
+
+.section-heading {
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  line-height: 1;
+  font-size: 36px;
+  text-align: center;
+}
+
+.services {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.company {
+  width: 640px;
+  margin: 40px auto 0;
+}
+
+.company-row {
+  display: flex;
+  margin-top: 20px;
+}
+
+.company-th {
+  flex: 1;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.company-td {
+  flex: 1;
+  margin-left: 10px;
+}
